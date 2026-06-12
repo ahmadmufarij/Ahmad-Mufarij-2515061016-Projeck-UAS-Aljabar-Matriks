@@ -1,0 +1,19 @@
+import Ahmad016
+
+A = [[1, 2], [3, 4]]
+B = [[5, 6], [7, 8]]
+C = [[2, 1], [5, 3]] 
+
+Ahmad016.tampilkan(A, "matriks A")
+Ahmad016.tampilkan(B, "matriks B")
+Ahmad016.tampilkan(C, "matriks C")
+
+Ahmad016.tampilkan(Ahmad016.tambah(A, B), "A + B")
+Ahmad016.tampilkan(Ahmad016.tambah(B, C), "B + C")
+Ahmad016.tampilkan(Ahmad016.tambah(C, A), "C + A")
+Ahmad016.tampilkan(Ahmad016.kurang(A, C), "A - C")
+Ahmad016.tampilkan(Ahmad016.kali(B, C), "B * C")
+Ahmad016.tampilkan(Ahmad016.transpose(A), "TRPS A")
+
+
+
